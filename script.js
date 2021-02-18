@@ -141,11 +141,11 @@ function calcCompound(hsl) {
 function calcShades(hsl) {
   let hslArray = new Array(5);
 
-  hslArray[0] = { h: hsl.h, s: hsl.s, l: hsl.l - 10 };
-  hslArray[1] = { h: hsl.h, s: hsl.s, l: hsl.l - 20 };
-  hslArray[2] = { h: hsl.h, s: hsl.s, l: hsl.l - 30 };
-  hslArray[3] = { h: hsl.h, s: hsl.s, l: hsl.l - 40 };
-  hslArray[4] = { h: hsl.h, s: hsl.s, l: hsl.l - 50 };
+  hslArray[0] = { h: hsl.h, s: hsl.s, l: hsl.l - 5 };
+  hslArray[1] = { h: hsl.h, s: hsl.s, l: hsl.l - 10 };
+  hslArray[2] = { h: hsl.h, s: hsl.s, l: hsl.l - 15 };
+  hslArray[3] = { h: hsl.h, s: hsl.s, l: hsl.l - 20 };
+  hslArray[4] = { h: hsl.h, s: hsl.s, l: hsl.l - 25 };
 
   return hslArray;
 }
